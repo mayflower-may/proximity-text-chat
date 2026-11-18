@@ -1,0 +1,89 @@
+{
+  "PTC": {
+    "Settings": {
+      "whisperDistance": {
+        "Name": "Whisper Distance",
+        "Hint": "Distance (in scene grid units) within which whisper-tier messages are heard."
+      },
+      "proximityDistance": {
+        "Name": "Talk Distance",
+        "Hint": "Distance (in scene grid units) within which normal talk messages are heard."
+      },
+      "screamDistance": {
+        "Name": "Shout Distance",
+        "Hint": "Distance (in scene grid units) within which shouts and /scream messages are heard."
+      },
+      "requireVisibility": {
+        "Name": "Require Token Visibility",
+        "Hint": "If enabled, messages from tokens the player cannot see are hidden even when in range."
+      },
+      "wallsBlockSpeech": {
+        "Name": "Walls Block Speech",
+        "Hint": "Whispers and talk are not heard through walls or closed doors. Windows and open doors let speech through. Shouts are only limited by distance."
+      },
+      "rollMessageDistance": {
+        "Name": "Roll Message Distance",
+        "Hint": "Rolls and item cards (attacks, damage, saves, spells) are visible within this distance of where they happened, regardless of voice tier and walls. Messages from other scenes are hidden. 0 = off (rolls follow the speaker's voice tier, as before)."
+      },
+      "useConditions": {
+        "Name": "Deafened and Silenced",
+        "Hint": "A deafened character does not hear in-character speech (emotes stay visible); a silenced character cannot speak in character (OOC and emotes still work). Uses the \"deafened\" and \"silenced\" status effects."
+      },
+      "rememberHeard": {
+        "Name": "Remember What Was Heard",
+        "Hint": "Each player's browser remembers whether they heard a message when it arrived. Without this, after a refresh or when scrolling up, visibility is recalculated from current positions: conversations you heard disappear once you walk away."
+      },
+      "showListeners": {
+        "Name": "Show Who Hears a Whisper",
+        "Hint": "With the whisper tier selected, the player characters in whisper range are listed next to the voice button."
+      },
+      "screamBubbleDuration": {
+        "Name": "Shout Bubble Duration (seconds)",
+        "Hint": "How long shout bubbles stay on screen. 0 = calculated from the text like other bubbles."
+      },
+      "minBubbleDuration": {
+        "Name": "Minimum Bubble Duration (seconds)",
+        "Hint": "Minimum time every chat bubble stays on screen, so short messages do not vanish instantly. 0 = no minimum."
+      },
+      "bubbleFont": {
+        "Name": "Bubble Font",
+        "Hint": "Chat bubble font. 'Signika' (or empty) = Foundry default, fully compatible with Polyglot. Type another font name to use it (e.g. 'Cinzel', loaded from Google Fonts). System fonts such as Georgia work directly."
+      },
+      "bubbleColor": {
+        "Name": "Bubble Text Colour",
+        "Hint": "Text colour of chat bubbles (also replaces the hard-to-read yellow /me colour). Pick a colour or type a hex value."
+      },
+      "styleEmotes": {
+        "Name": "Restyle Emotes",
+        "Hint": "/me bubbles become frameless floating italic text above the token, and /me messages in the chat log get a darker style."
+      }
+    },
+    "Tier": {
+      "Whisper": "Whisper",
+      "Talk": "Talk",
+      "Shout": "Shout",
+      "WhisperVerb": "whispers",
+      "TalkVerb": "says",
+      "ShoutVerb": "shouts"
+    },
+    "TierButton": "Voice: {tier} (click to change)",
+    "Listeners": {
+      "NoToken": "You have no token",
+      "Heard": "Heard by: {names}",
+      "Nobody": "Nobody nearby hears you",
+      "Tooltip": "Player characters who will hear your whisper: {names}",
+      "TooltipNobody": "No player character within whisper range"
+    },
+    "Telepathy": "Telepathy",
+    "Notify": {
+      "NoLibWrapper": "Proximity Text Chat (Continued): libWrapper is not active, the module will not work.",
+      "TelepathyUsage": "Usage: /telepathy UserName message",
+      "ScreamUsage": "Usage: /scream message",
+      "UserNotFound": "No user named \"{name}\" was found.",
+      "Deafened": "Someone nearby is speaking, but you are deafened and cannot hear them.",
+      "Silenced": "{name} is silenced and cannot speak. (OOC and emotes still work.)",
+      "LegacyActive": "Proximity Text Chat (Continued): the original Proximity Text Chat module is also active. Disable one of them; while the original is active, this module does nothing.",
+      "LegacyImported": "Proximity Text Chat (Continued): {count} settings were imported from the original module."
+    }
+  }
+}

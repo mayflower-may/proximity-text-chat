@@ -1,0 +1,66 @@
+{
+  "id": "proximity-text-chat-continued",
+  "title": "Proximity Text Chat (Continued)",
+  "description": "Hides in-character chat messages and bubbles from players whose tokens are too far from the speaker. Whisper / talk / shout voice tiers, optional wall blocking, deafened and silenced conditions.",
+  "authors": [
+    {
+      "name": "enso (jessev14)",
+      "url": "https://github.com/jessev14",
+      "flags": {
+        "role": "original author"
+      }
+    },
+    {
+      "name": "mayflower-may",
+      "url": "https://github.com/mayflower-may"
+    }
+  ],
+  "version": "3.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.12"
+        }
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "proximity-text-chat",
+        "type": "module",
+        "manifest": "https://github.com/jessev14/proximity-text-chat/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/proximity-text-chat.js"
+  ],
+  "styles": [
+    "styles/proximity-text-chat.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "tr",
+      "name": "Türkçe",
+      "path": "lang/tr.json"
+    }
+  ],
+  "url": "https://github.com/mayflower-may/proximity-text-chat",
+  "manifest": "https://github.com/mayflower-may/proximity-text-chat/releases/latest/download/module.json",
+  "download": "https://github.com/mayflower-may/proximity-text-chat/releases/latest/download/module.zip",
+  "bugs": "https://github.com/mayflower-may/proximity-text-chat/issues",
+  "license": "LICENSE",
+  "readme": "README.md"
+}

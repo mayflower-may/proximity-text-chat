@@ -1,0 +1,89 @@
+{
+  "PTC": {
+    "Settings": {
+      "whisperDistance": {
+        "Name": "Fısıltı mesafesi",
+        "Hint": "Fısıltı kademesindeki mesajların duyulduğu mesafe (sahne grid birimi)."
+      },
+      "proximityDistance": {
+        "Name": "Konuşma mesafesi",
+        "Hint": "Normal konuşma mesajlarının duyulduğu mesafe (sahne grid birimi)."
+      },
+      "screamDistance": {
+        "Name": "Bağırma mesafesi",
+        "Hint": "Bağırma ve /scream mesajlarının duyulduğu mesafe (sahne grid birimi)."
+      },
+      "requireVisibility": {
+        "Name": "Token görünür olmalı",
+        "Hint": "Açıksa, menzil içinde olsa bile oyuncunun göremediği token'ların mesajları gizlenir."
+      },
+      "wallsBlockSpeech": {
+        "Name": "Duvarlar konuşmayı keser",
+        "Hint": "Fısıltı ve konuşma, duvarın ya da kapalı kapının arkasından duyulmaz. Pencere ve açık kapı geçirir. Bağırma yalnızca mesafeyle sınırlıdır."
+      },
+      "rollMessageDistance": {
+        "Name": "Zar mesajı mesafesi",
+        "Hint": "Zarlar ve eşya kartları (saldırı, hasar, kurtarma, büyü) olduğu yerin bu mesafesinde görünür; ses kademesi ve duvar fark etmez. Başka haritadakiler görmez. 0 = kapalı (zarlar konuşanın ses kademesine uyar, eskisi gibi)."
+      },
+      "useConditions": {
+        "Name": "Sağır ve susturulmuş",
+        "Hint": "Sağır karakter karakter ağzından konuşmaları duymaz (emote'lar görünür); susturulmuş karakter karakter ağzından konuşamaz (OOC ve emote serbest). \"deafened\" ve \"silenced\" durumlarını kullanır."
+      },
+      "rememberHeard": {
+        "Name": "Duyulanı hatırla",
+        "Hint": "Her oyuncunun tarayıcısı, mesaj geldiğinde onu duyup duymadığını hatırlar. Kapalıysa F5 sonrası ya da yukarı kaydırınca görünürlük o anki konumlara göre yeniden hesaplanır: uzaklaşınca duyduğun eski konuşmalar kaybolur."
+      },
+      "showListeners": {
+        "Name": "Fısıltıyı kimin duyduğunu göster",
+        "Hint": "Fısıltı kademesi seçiliyken ses düğmesinin yanında fısıltı mesafesindeki oyuncu karakterleri yazar."
+      },
+      "screamBubbleDuration": {
+        "Name": "Bağırma balonu süresi (sn)",
+        "Hint": "Bağırma balonlarının ekranda kalma süresi. 0 = diğer balonlar gibi metne göre hesaplanır."
+      },
+      "minBubbleDuration": {
+        "Name": "En az balon süresi (sn)",
+        "Hint": "Tüm sohbet balonlarının ekranda en az kalma süresi; kısa mesajlar hemen kaybolmaz. 0 = alt sınır yok."
+      },
+      "bubbleFont": {
+        "Name": "Balon yazı tipi",
+        "Hint": "Sohbet balonu fontu. 'Signika' (ya da boş) = Foundry varsayılanı, Polyglot ile tam uyumlu. Başka bir font adı yazarsan o kullanılır (ör. 'Cinzel', Google Fonts'tan yüklenir). Georgia gibi sistem fontları doğrudan çalışır."
+      },
+      "bubbleColor": {
+        "Name": "Balon metin rengi",
+        "Hint": "Sohbet balonlarının metin rengi (okunması zor sarı /me rengini de değiştirir). Renk seç ya da hex yaz."
+      },
+      "styleEmotes": {
+        "Name": "Emote görünümü",
+        "Hint": "/me balonları token'ın üstünde çerçevesiz, süzülen italik yazı olur; sohbet günlüğündeki /me mesajları koyu bir görünüm alır."
+      }
+    },
+    "Tier": {
+      "Whisper": "Fısıltı",
+      "Talk": "Konuşma",
+      "Shout": "Bağırma",
+      "WhisperVerb": "fısıldar",
+      "TalkVerb": "söyler",
+      "ShoutVerb": "bağırır"
+    },
+    "TierButton": "Ses kademesi: {tier} (değiştirmek için tıkla)",
+    "Listeners": {
+      "NoToken": "Token'ın yok",
+      "Heard": "Duyan: {names}",
+      "Nobody": "Yakınında duyan yok",
+      "Tooltip": "Fısıltını duyacak oyuncu karakterleri: {names}",
+      "TooltipNobody": "Fısıltı mesafesinde oyuncu karakteri yok"
+    },
+    "Telepathy": "Telepati",
+    "Notify": {
+      "NoLibWrapper": "Proximity Text Chat (Continued): libWrapper açık değil, modül çalışmayacak.",
+      "TelepathyUsage": "Kullanım: /telepathy KullanıcıAdı mesaj",
+      "ScreamUsage": "Kullanım: /scream mesaj",
+      "UserNotFound": "\"{name}\" adlı kullanıcı bulunamadı.",
+      "Deafened": "Yakınında biri konuşuyor ama sağır olduğun için duyamıyorsun.",
+      "Silenced": "{name} susturulmuş; konuşamıyor. (OOC ve emote kullanılabilir.)",
+      "LegacyActive": "Proximity Text Chat (Continued): orijinal Proximity Text Chat modülü de açık. Birini kapat; orijinal açıkken bu modül hiçbir şey yapmaz.",
+      "LegacyImported": "Proximity Text Chat (Continued): orijinal modülden {count} ayar aktarıldı."
+    }
+  }
+}
