@@ -1,8 +1,8 @@
 # Proximity Text Chat (Continued)
 
-Hides in-character chat messages and chat bubbles from players whose tokens are too far from the speaker.
+In the foundry, make sure that the message sent by your character is visible only to those nearby. 
 
-This is a continuation of [Proximity Text Chat](https://github.com/jessev14/proximity-text-chat) by **enso (jessev14)**, which has not been updated since Foundry v11. It is updated for Foundry VTT **v13 and v14** and extended with the features below. Licensed under GPL-3.0, like the original.
+This is a continuation work of [Proximity Text Chat](https://github.com/jessev14/proximity-text-chat) by **enso (jessev14)**, which has not been updated since Foundry v11. It's updated for Foundry VTT **v13 and v14** and extended with the some features. Licensed under GPL-3.0.
 
 ![Screenshot](img/ss.png)
 
