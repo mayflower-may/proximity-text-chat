@@ -1,6 +1,6 @@
 # Proximity Text Chat (Continued)
 
-In the foundry, make sure that the message sent by your character is visible only to those nearby. 
+In the foundry, make sure that the message sent by your character is visible only to those nearby. Compatible with text-based campaigns.
 
 This is a continuation work of [Proximity Text Chat](https://github.com/jessev14/proximity-text-chat) by **enso (jessev14)**, which has not been updated since Foundry v11. It's updated for Foundry VTT **v13 and v14** and extended with the some features. Licensed under GPL-3.0.
 
